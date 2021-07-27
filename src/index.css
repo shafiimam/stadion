@@ -13,15 +13,23 @@ code {
 }
 
 .container {
-  width: 1080px;
+  max-width: 1080px;
   margin: 0 auto;
 }
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-@media screen and (max-width: 500px) {
-  body {
-    max-width: 500px;
+@media screen and (max-width: 800px) {
+  .grid-2{
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
   }
   .container {
-    max-width: 500px;
+    width: 100%;
+  }
+  .hero .righ_section img{
+    width: 100%;
   }
 }

@@ -1,23 +1,16 @@
 .main-text {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 40px;
   font-size: 25px;
-  line-height: 38px;
+  margin-bottom: 30px;
 }
-.downloadApp {
-  display: grid;
-  grid-template-areas: "image title";
+.downloadSection {
+  padding: 100px 0;
 }
-.download {
-  grid-area: image;
-  margin-left: 230px;
-}
-.info {
-  grid-area: title;
-  align-self: center;
-  justify-self: center;
-  margin-right: 240px;
+
+
+.righ_section {
+ display: flex;
+ align-items: center;
 }
 .info h2 {
   font-size: 22px;
@@ -39,34 +32,4 @@
   top: 40px;
   right: 80px;
 }
-@media screen and (max-width: 500px) {
-  .downloadApp {
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "image"
-      "title";
-    height: 800px;
-  }
-  .download {
-    width: 100%;
-    justify-self: center;
-    margin-left: 65px;
-  }
-  .info {
-    justify-self: center;
-    align-self: center;
-  }
-  .download .qr {
-    width: 130px;
-  }
-  .download .appMobile {
-    width: 225px;
-  }
-  .main-text {
-    padding: 20px;
-  }
-  .info {
-    margin: 0 auto;
-    padding: 20px;
-  }
-}
+
