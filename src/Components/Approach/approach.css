@@ -33,7 +33,7 @@ form {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .approach {
     width: 50%;
     height: 235px;

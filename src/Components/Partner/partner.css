@@ -8,6 +8,7 @@
 }
 .partner-section div {
   height: 30px;
+  position: relative;
 }
 .partner-section h2 {
   font-size: 25px;
@@ -48,13 +49,14 @@ form {
   flex-wrap: wrap;
 }
 .food1 {
-  position: relative;
-  left: 838px;
-  top: 318px;
+  position: absolute;
+  top: 308px;
+  right: 0;
 }
+
 .food2 {
-  position: relative;
-  right: 680px;
+  position: absolute;
+  left: 0;
   top: 40px;
 }
 .burger {
@@ -71,7 +73,7 @@ form {
 .partner-section button {
   margin-top: 200px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .partner-section {
     height: 800px;
   }
@@ -80,5 +82,12 @@ form {
   }
   .submit-button {
     margin-top: 0px !important;
+  }
+  .food2 {
+    height: 60px;
+  }
+  .food1 {
+    height: 60px;
+    top: 616px;
   }
 }

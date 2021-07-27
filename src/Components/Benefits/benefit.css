@@ -17,6 +17,10 @@
   align-items: center;
   justify-content: space-between;
 }
+.benefit-section {
+  position: relative;
+  margin-top: 20px;
+}
 .benefit-icon {
   display: flex;
   justify-content: center;
@@ -42,16 +46,16 @@
 }
 .benefit-redleaf2 {
   position: absolute;
-  top: 375%;
-  right: 95%;
+  top: 0;
+  left: 0;
 }
 .benefit-redleaf1 {
   position: absolute;
-  left: 95%;
-  top: 453%;
+  right: 0;
+  top: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .benefit-card {
     margin: 0 auto;
     margin-bottom: 20px;

@@ -20,16 +20,3 @@ code {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-@media screen and (max-width: 800px) {
-  .grid-2 {
-    grid-template-columns: 1fr;
-    grid-gap: 30px;
-  }
-  .container {
-    width: 100%;
-  }
-  .hero .right_section img {
-    width: 380px;
-  }
-}

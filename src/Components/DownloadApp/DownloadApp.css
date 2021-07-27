@@ -7,10 +7,9 @@
   padding: 100px 0;
 }
 
-
-.righ_section {
- display: flex;
- align-items: center;
+.right_section {
+  display: flex;
+  align-items: center;
 }
 .info h2 {
   font-size: 22px;
@@ -32,4 +31,24 @@
   top: 40px;
   right: 80px;
 }
+.download {
+  display: flex;
+  justify-content: center;
+}
+.qr_app {
+  margin: 0 0 0 10%;
+  width: auto;
+}
 
+@media screen and (max-width: 800px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .container {
+    width: 100%;
+  }
+  .hero .right_section img {
+    width: 380px;
+  }
+}

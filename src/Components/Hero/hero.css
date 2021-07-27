@@ -8,7 +8,7 @@
   padding: 100px 0;
 }
 .hero .left_section,
-.hero .righ_section {
+.hero .right_section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,9 +29,8 @@
 }
 .hero-title {
   grid-area: title;
-  padding: 0 0 0 100px;
   align-self: center;
-  margin-right: 300px;
+  margin: 0 auto;
 }
 .hero-image {
   grid-area: image;
@@ -55,7 +54,7 @@
   padding: 6px 30px;
   color: #e9e9e9;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .hero {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -66,10 +65,7 @@
     width: 100%;
   }
   .hero-title {
-    justify-self: center;
-    align-self: center;
-    width: 100%;
-    margin-bottom: 20px;
+    margin-left: 0px;
   }
   .hero-title > h1 {
     font-size: 25px;
@@ -91,5 +87,6 @@
     display: none;
   }
   .leaf2 {
+    display: none;
   }
 }
