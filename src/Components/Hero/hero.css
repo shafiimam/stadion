@@ -1,26 +1,29 @@
 .hero {
   position: relative;
-  display: grid;
-  grid-template-areas: "title image";
   background: url("../../Images/image\ 31.png");
-  height: 488px;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: hsl(337, 79%, 54%);
+  color: #fff;
+  padding: 100px 0;
+}
+.hero .left_section, .hero .righ_section{
+  display: flex;
+  align-items: center;
 }
 .dots {
   position: absolute;
-  bottom: 370px;
+  top: 30px;
 }
 .leaf1 {
   position: absolute;
-  bottom: 160px;
-  right: 154%;
+  bottom: 0;
+  /* right: 0; */
 }
 .leaf2 {
   position: absolute;
-  left: 91%;
-  top: 225px;
+  right: 0;
+  bottom: 0;
 }
 .hero-title {
   grid-area: title;
