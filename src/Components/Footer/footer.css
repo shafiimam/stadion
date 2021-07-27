@@ -27,6 +27,7 @@
 }
 .download-footer {
   grid-area: download;
+  justify-self: end;
 }
 .footer a {
   display: block;

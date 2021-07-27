@@ -44,7 +44,7 @@ a {
     border: none;
     font-family: "Poppins";
     color: #ffffff;
-    position: fixed;
+    position: absolute;
     top: 14px;
     bottom: auto;
     left: 196px;
