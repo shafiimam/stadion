@@ -13,6 +13,8 @@
 .benefits {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 }
 .benefit-icon {
@@ -47,4 +49,11 @@
   position: absolute;
   left: 95%;
   top: 453%;
+}
+
+@media screen and (max-width: 500px) {
+  .benefit-card {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }

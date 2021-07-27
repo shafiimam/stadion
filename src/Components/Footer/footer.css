@@ -4,10 +4,18 @@
   max-width: 1080px;
   height: 234px;
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  grid-template-areas: "info sitemap legal download";
+  grid-template-columns: 1.2fr 3fr;
+  grid-template-areas: "info right_section";
+  grid-gap: 10px;
 }
-
+.right-section {
+  display: grid;
+  justify-self: center;
+  align-self: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "sitemap legal download";
+  grid-gap: 10px;
+}
 .site-info {
   grid-area: info;
 }
@@ -31,6 +39,7 @@
   margin-top: 10px;
   max-width: 1080px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .social {
@@ -38,4 +47,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    margin: 10px 0 0 10px;
+    height: 300px;
+    justify-self: start;
+    align-self: start;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "info"
+      "right-section";
+  }
+  .social-copyright {
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-reverse;
+  }
+  .social {
+    justify-content: center;
+  }
+  .social p {
+    text-align: center;
+    font-size: 14px;
+  }
 }

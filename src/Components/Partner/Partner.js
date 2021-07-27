@@ -32,7 +32,7 @@ const Partner = () => {
           <input type="text" name="phone" />
         </div>
       </form>
-      <button className="demo-button">submit</button>
+      <button className="demo-button submit-button">submit</button>
     </div>
   );
 };

@@ -1,6 +1,8 @@
 .approaches {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-basis: auto;
 }
 .approach-icon {
@@ -29,4 +31,11 @@
 }
 form {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .approach {
+    width: 50%;
+    height: 235px;
+  }
 }

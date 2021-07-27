@@ -18,9 +18,9 @@ const Footer = () => {
             easy to order and re-order. No need to queue up.
           </p>
         </div>
+        <div className="right-section">
         <div className="sitemap">
           <p>Sitemap</p>
-          <Link to="/blog">Blog</Link>
           <Link to="/blog">Consumer</Link>
           <Link to="/blog">Contact</Link>
         </div>
@@ -34,6 +34,8 @@ const Footer = () => {
           <img src={downloadApp} />
         </div>
       </div>
+          
+        </div>
       <hr></hr>
       <div className="social-copyright">
         <div className="social">

@@ -7,9 +7,11 @@
   color: #fff;
   padding: 100px 0;
 }
-.hero .left_section, .hero .righ_section{
+.hero .left_section,
+.hero .righ_section {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .dots {
   position: absolute;

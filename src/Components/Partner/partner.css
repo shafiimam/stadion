@@ -45,6 +45,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .food1 {
   position: relative;
@@ -69,4 +70,15 @@ form {
 }
 .partner-section button {
   margin-top: 200px;
+}
+@media screen and (max-width: 500px) {
+  .partner-section {
+    height: 800px;
+  }
+  form {
+    height: 350px;
+  }
+  .submit-button {
+    margin-top: 0px !important;
+  }
 }
