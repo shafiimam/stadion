@@ -85,11 +85,12 @@
 }
 @media only screen and (max-width: 500px) {
   .hero2 {
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "image"
       "title";
-    height: 800px;
+    height: auto;
   }
 
   .hero-title {
@@ -98,6 +99,7 @@
     align-self: center;
     width: 100%;
     margin-bottom: 20px;
+    padding: 20px;
   }
   .hero-title > p {
     font-weight: 500;
@@ -106,6 +108,7 @@
   }
   .hero-image > img {
     height: 200px;
+    margin-right: 60px;
   }
   .dots,
   .leaf1 {
