@@ -1,0 +1,50 @@
+.benefit-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ef2e78;
+  margin: 20px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 25px;
+  width: 280px;
+  height: 330px;
+  overflow: hidden;
+}
+.benefits {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.benefit-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background: url(../../Images/Ellipse\ 1.png);
+}
+.benefit-content {
+  font-size: 13px;
+  line-height: 26px;
+}
+.benefit-title {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.benefit-section h1 {
+  text-align: center;
+  font-size: 25px;
+  line-height: 38px;
+}
+.benefit-redleaf2 {
+  position: absolute;
+  top: 375%;
+  right: 95%;
+}
+.benefit-redleaf1 {
+  position: absolute;
+  left: 95%;
+  top: 453%;
+}

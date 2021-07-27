@@ -1,0 +1,41 @@
+.footer {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1080px;
+  height: 234px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-areas: "info sitemap legal download";
+}
+
+.site-info {
+  grid-area: info;
+}
+.sitemap {
+  grid-area: sitemap;
+}
+.legal {
+  grid-area: legal;
+}
+.download-footer {
+  grid-area: download;
+}
+.footer a {
+  display: block;
+}
+.download-footer img {
+  justify-self: start;
+}
+.social-copyright {
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 1080px;
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,72 @@
+.partner-section {
+  text-align: center;
+  background: url("../../Images/partner-bg.png");
+  height: 488px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(337, 79%, 54%);
+}
+.partner-section div {
+  height: 30px;
+}
+.partner-section h2 {
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+}
+.partner-section p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+label {
+  display: block;
+  clear: left;
+  text-align: left;
+  padding: 10px 0px;
+  margin: 0px 15px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  font-weight: 600;
+}
+input {
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 15px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.food1 {
+  position: relative;
+  left: 838px;
+  top: 318px;
+}
+.food2 {
+  position: relative;
+  right: 680px;
+  top: 40px;
+}
+.burger {
+  opacity: 97%;
+  position: relative;
+  top: 0;
+  left: 500px;
+}
+.glass {
+  position: relative;
+  right: 800px;
+  top: 300px;
+}
+.partner-section button {
+  margin-top: 200px;
+}

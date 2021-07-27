@@ -1,0 +1,89 @@
+.hero {
+  position: relative;
+  display: grid;
+  grid-template-areas: "title image";
+  background: url("../../Images/image\ 31.png");
+  height: 488px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(337, 79%, 54%);
+}
+.dots {
+  position: absolute;
+  bottom: 370px;
+}
+.leaf1 {
+  position: absolute;
+  bottom: 160px;
+  right: 154%;
+}
+.leaf2 {
+  position: absolute;
+  left: 91%;
+  top: 225px;
+}
+.hero-title {
+  grid-area: title;
+  padding: 0 0 0 100px;
+  align-self: center;
+  margin-right: 300px;
+}
+.hero-image {
+  grid-area: image;
+  justify-self: center;
+  margin-right: 65px;
+}
+.hero-title h1 {
+  font-family: "Poppins";
+  color: #e9e9e9;
+}
+.hero-title p {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 30px;
+  color: #e9e9e9;
+}
+.demo-button {
+  border: 2px solid #e9e9e9;
+  background: transparent;
+  border-radius: 32px;
+  padding: 6px 30px;
+  color: #e9e9e9;
+}
+@media screen and (max-width: 400px) {
+  .hero {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "image"
+      "title";
+    height: 800px;
+    width: 100%;
+  }
+  .hero-title {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .hero-title > h1 {
+    font-size: 25px;
+    line-height: 39px;
+  }
+  .hero-title > p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .hero-image {
+    display: flex;
+  }
+  .hero-image > img {
+    height: auto;
+  }
+  .dots,
+  .leaf1 {
+    display: none;
+  }
+  .leaf2 {
+  }
+}
