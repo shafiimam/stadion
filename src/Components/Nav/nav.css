@@ -46,8 +46,7 @@ a {
     color: #ffffff;
     position: absolute;
     top: 14px;
-    bottom: auto;
-    left: 196px;
+    right: 90px;
   }
 
   .logo {

@@ -14,14 +14,14 @@ const Hero2 = () => {
     <div className="hero2-section">
       <h1>Your access to stadian app</h1>
       <div className="hero2">
-        <div className="hero-title">
+        <div className="hero2-title">
           <p>
             You receive the orders on a mobile device/tablet. You can keep your
             customers notified and let them know when the order is ready for
             collection or out for delivery to them.
           </p>
         </div>
-        <div className="hero-image">
+        <div className="hero2-image">
           <img src={dash} />
         </div>
       </div>

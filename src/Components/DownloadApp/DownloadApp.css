@@ -21,16 +21,7 @@
   font-size: 16px;
   line-height: 28px;
 }
-.redleaf1 {
-  position: relative;
-  left: 95%;
-  top: 525px;
-}
-.redleaf2 {
-  position: relative;
-  top: 40px;
-  right: 80px;
-}
+
 .download {
   display: flex;
   justify-content: center;
@@ -49,6 +40,6 @@
     width: 100%;
   }
   .hero .right_section img {
-    width: 380px;
+    width: 90%;
   }
 }

@@ -19,7 +19,7 @@ const DownloadApp = () => {
               <div className="qr_app">
                 <img src={qr} className="qr" />
                 <img src={appMobile} className="appMobile" />
-                <img src={appstore} />
+                <img src={appstore} className="appstore" />
               </div>
             </div>
           </div>

@@ -30,7 +30,6 @@
 .hero-title {
   grid-area: title;
   align-self: center;
-  margin: 0 auto;
 }
 .hero-image {
   grid-area: image;
@@ -65,7 +64,10 @@
     width: 100%;
   }
   .hero-title {
-    margin-left: 0px;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 20px;
   }
   .hero-title > h1 {
     font-size: 25px;

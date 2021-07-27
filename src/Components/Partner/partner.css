@@ -63,7 +63,6 @@ form {
   opacity: 97%;
   position: relative;
   top: 0;
-  left: 500px;
 }
 .glass {
   position: relative;
@@ -77,8 +76,13 @@ form {
   .partner-section {
     height: 800px;
   }
+  label,
+  input {
+    width: 90%;
+  }
   form {
     height: 350px;
+    padding: 20px;
   }
   .submit-button {
     margin-top: 0px !important;
