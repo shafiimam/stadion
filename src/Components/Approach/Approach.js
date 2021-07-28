@@ -7,8 +7,8 @@ const Approach = (props) => {
       <div className="approach-icon">
         <img src={icon} />
       </div>
-      <p>{title}</p>
-      <p>{content}</p>
+      <p className="approach-title">{title}</p>
+      <p className="approach-content">{content}</p>
     </div>
   );
 };

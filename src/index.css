@@ -10,11 +10,11 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
-* {
+/* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

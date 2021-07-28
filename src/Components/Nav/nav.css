@@ -6,6 +6,9 @@ a {
   line-height: 24px;
   color: #4a4a4a;
 }
+.navbar-toggler {
+  background-color: #ef2e78 !important;
+}
 .header-button {
   background: #ef2e78;
   border-radius: 32px;

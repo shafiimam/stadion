@@ -20,7 +20,6 @@
 .leaf1 {
   position: absolute;
   bottom: 0;
-  /* right: 0; */
 }
 .leaf2 {
   position: absolute;
@@ -48,21 +47,22 @@
 }
 .demo-button {
   border: 2px solid #e9e9e9;
-  background: transparent;
+  background: #ef2e78;
   border-radius: 32px;
   padding: 6px 30px;
   color: #e9e9e9;
 }
+.content h1 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 39px;
+}
+.content p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+}
 @media screen and (max-width: 800px) {
-  .hero {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "image"
-      "title";
-    height: 800px;
-    width: 100%;
-  }
   .hero-title {
     justify-self: center;
     align-self: center;
@@ -90,5 +90,8 @@
   }
   .leaf2 {
     display: none;
+  }
+  .left_section {
+    grid-row: 2/3;
   }
 }

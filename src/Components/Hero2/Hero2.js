@@ -12,7 +12,7 @@ import right2 from "../../Images/right2.png";
 const Hero2 = () => {
   return (
     <div className="hero2-section">
-      <h1>Your access to stadian app</h1>
+      <h1>YOUR ACCESS TO STADIAN APP</h1>
       <div className="hero2">
         <div className="hero2-title">
           <p>
@@ -20,6 +20,7 @@ const Hero2 = () => {
             customers notified and let them know when the order is ready for
             collection or out for delivery to them.
           </p>
+          <button className="demo-button-free">Free demo</button>
         </div>
         <div className="hero2-image">
           <img src={dash} />

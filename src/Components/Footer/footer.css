@@ -27,13 +27,13 @@
 }
 .download-footer {
   grid-area: download;
-  justify-self: end;
+  justify-self: center;
 }
 .footer a {
   display: block;
 }
 .download-footer img {
-  justify-self: start;
+  justify-self: center;
 }
 .social-copyright {
   margin: 0 auto;
@@ -68,8 +68,29 @@
   .social {
     justify-content: center;
   }
+  .social > img {
+    padding: 5px;
+  }
   .social p {
     text-align: center;
     font-size: 14px;
+  }
+  .sitemap p,
+  .legal p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+  .social-copyright {
+    padding-bottom: 40px;
+  }
+  .social-copyright p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
   }
 }

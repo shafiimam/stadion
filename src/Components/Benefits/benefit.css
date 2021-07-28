@@ -56,8 +56,33 @@
 }
 
 @media screen and (max-width: 800px) {
+  .benefit-redleaf1 {
+    display: none;
+  }
   .benefit-card {
     margin: 0 auto;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .benefit-title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .benefit-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .benefit-section h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
     margin-bottom: 20px;
   }
 }

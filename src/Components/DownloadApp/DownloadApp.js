@@ -10,7 +10,7 @@ const DownloadApp = () => {
     <div className="downloadSection">
       {/* <img src={redleaf1} className="redleaf1" />
       <img src={redleaf2} className="redleaf2" /> */}
-      <h1 className="main-text">How do customers gain access?</h1>
+      <h1 className="main-text">HOW DO CUSTOMERS GAIN ACCESS?</h1>
 
       <div className="container">
         <div className="grid-2">
