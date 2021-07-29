@@ -16,7 +16,7 @@ const Home = () => {
       <Hero />
       <DownloadApp />
       <Hero2 />
-      <Cards />
+      {/* <Cards /> */}
       <Benefits />
       <Approaches />
       <Partner />

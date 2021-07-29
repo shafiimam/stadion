@@ -42,6 +42,7 @@ input {
   outline: none;
   border-radius: 6px;
 }
+
 form {
   display: flex;
   justify-content: center;
@@ -76,10 +77,14 @@ form {
   .partner-section {
     height: 800px;
   }
+  .right-form {
+    margin-top: 20px;
+  }
   label,
   input {
     width: 90%;
   }
+
   form {
     height: 350px;
     padding: 20px;

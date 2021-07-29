@@ -19,13 +19,13 @@ const Partner = () => {
         out this form and we will be back to you as quick as possible.
       </p>
       <form>
-        <div>
+        <div className="left-form">
           <label for="fname">First Name</label>
           <input type="text" name="fname" />
           <label for="lname">Last Name</label>
           <input type="text" name="lname" />
         </div>
-        <div>
+        <div className="right-form">
           <label for="email">Email Address</label>
           <input type="text" name="email" />
           <label for="phone">Phone</label>

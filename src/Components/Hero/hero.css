@@ -47,7 +47,7 @@
 }
 .demo-button {
   border: 2px solid #e9e9e9;
-  background: #ef2e78;
+  background: transparent;
   border-radius: 32px;
   padding: 6px 30px;
   color: #e9e9e9;

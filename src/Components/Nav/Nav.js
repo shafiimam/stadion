@@ -12,7 +12,6 @@ const Navigation = () => {
         <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand className="header-logo">
             <img src={logo} className="logo" />
-            <button className="header-button-mobile">For Consumers</button>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

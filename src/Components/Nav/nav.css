@@ -19,39 +19,15 @@ a {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
+  width: 160px;
 }
-.header-button-mobile {
-  display: none;
-  position: absolute;
-  bottom: 10px;
-}
-
 .logo {
   margin-left: 60px;
 }
 @media screen and (max-width: 800px) {
-  .header-button {
-    display: none;
-  }
   .header-logo {
     display: flex;
   }
-  .header-button-mobile {
-    display: block;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 600;
-    padding: 8px 10px;
-    background: #ef2e78;
-    border-radius: 32px;
-    border: none;
-    font-family: "Poppins";
-    color: #ffffff;
-    position: absolute;
-    top: 14px;
-    right: 90px;
-  }
-
   .logo {
     width: 125px;
     margin-left: 17px;
